@@ -119,3 +119,45 @@ nav{
    font-weight: 400;
    
 }
+
+.jumbo{
+   width: 880px;
+   height: 50vh;
+   background-image: url(../img/jumbo.png);
+   background-size: cover;
+   position:absolute;
+   right: 250px;
+   bottom: -80px;
+}
+
+.deleteP{
+   width: 300px;
+   
+   position:absolute;
+   bottom:18%;
+   left:9%;
+   
+}
+
+.deleteP > p{
+   font-size: 20px;
+   line-height: 30px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+}
+
+.ico_img i{
+   display: inline-block;
+   position: absolute;
+   bottom:80px;
+   left:9%;
+   
+   
+}
+
+.ico_img{
+   
+   position:absolute;
+   bottom:35px;
+   left:7.5%;
+}
