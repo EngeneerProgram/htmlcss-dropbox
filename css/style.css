@@ -35,7 +35,7 @@ li{
 
 
 
-
+/*Barra di navigazione*/
 nav{
    position:relative;
    padding:35px;
@@ -78,8 +78,11 @@ nav{
    border:none;
    color:white;
 }
+/*Barra di navigazione****/
 
 
+
+/*hero_container****/
 .hero_container{
    position:relative;
    width: 100%;
@@ -161,3 +164,5 @@ nav{
    bottom:35px;
    left:7.5%;
 }
+
+/*hero_container****/
