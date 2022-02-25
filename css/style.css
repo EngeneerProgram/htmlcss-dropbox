@@ -2,62 +2,120 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    list-style: none;
+    
+}
+/*regole comuni*/
+li{
+   display: inline;
+   margin:20px;
+}
+.menu_left li a{
+   text-decoration: none;
+   font-size: 18px;
+   color:black;
+}
+
+.menu_right li a{
+   text-decoration: none;
+   font-size: 18px;
+   color:black;
+}
+
+.button_text{
+   position:absolute;
+   bottom:25%;
+   left:9%;
+   padding:10px 30px;
+   background-color: rgba(0, 97, 255, 1);
+   color:white;
+   border:none;
+   font-size: 18px;
 }
 
 
-.nav_left{
-    position: relative;
-    margin-left: 3%;
-    float:left;
-    width: 55rem;
-    min-height: 10vh;
+
+
+
+nav{
+   position:relative;
+   padding:35px;
+   width: 100%;
+   min-height: 10vh;
+   
+   
+   
+}
+.logo{
+  float:left;
+  margin-left:-10px;
+  padding-right: 20px;
+}
+
+
+
+.menu_left{
+   float:left;
+   line-height: 25px;
+   vertical-align: middle;
+}
+
+.menu_right{
+   float:right;
+   line-height: 25px;
+   vertical-align: middle;
+   margin-right:80px;
+}
+
+.--start{
+   padding:5px 20px;
+   line-height: 20px;
+   vertical-align: middle;
+   position:absolute;
+   right:0;
+   bottom:37%;
+   margin-right:25px;
+   background-color: rgba(0, 97, 255, 1);
+   border:none;
+   color:white;
+}
+
+
+.hero_container{
+   position:relative;
+   width: 100%;
+   height: 80vh;
+   background-color: rgba(180, 208, 231, 1);
+}
+
+.primary_text{
+   position:absolute;
+   bottom:65%;
+   left:9%;
+   min-width: 1550px;
+   min-height: 15vh;
    
 }
 
-.nav_right{
-    margin-right: 3%;
-    float:right;
-    width: 40rem;
-    min-height: 10vh;
-    
-}
-.btn{
-    padding:7px 25px;
-    cursor:pointer;
-}
-.--start{
-    float:right;
-    margin-top:-4%;
-    background-color:rgba(0, 97, 255, 1);
-    color:#fff;
-    border:none;
+.primary_text > h1{
+   font-family: 'Roboto', sans-serif;
+   color:rgba(0, 0, 0, 1);
+   font-size: 90px;
 }
 
+.primary_paragraph{
+   position:absolute;
+   bottom:35%;
+   left:9%;
+   min-width: 700px;
+   min-height: 15vh;
+   
 
-.clearfix::hover{
-    content: "";
-    display: table;
-    clear: both;
 }
 
-
-
-.menu li{
-    
-    display: inline-block;
-    margin-top:40px;
-}
-
-.menu a{
-    margin-left:60px;
-    text-decoration: none;
-    font-size: 18px;
-    color:rgba(48, 48, 48, 1)
-}
-
-.logo{
-    float:left;
-    margin-top: 4%;
-    
+.primary_paragraph > p{
+   font-size: 20px;
+   line-height: 30px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   
 }
