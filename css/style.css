@@ -172,7 +172,7 @@ nav{
 
 /*container01*/
 .container_01{
-   width: 1500px;
+   width: 1600px;
    margin:2rem auto;
    
   
@@ -191,14 +191,12 @@ nav{
 
 .box{
    
-   width: 300px;
+   width: 350px;
    margin-left:150px;
    margin-top:200px;
-   height: 500px;
+   height: 1400px;
    border:1px solid rgba(224, 224, 226, 1);
-   
-   
-   
+   box-shadow: 0 0 10px rgba(224, 224, 226, 1);
    float:left;
 }
 
@@ -210,11 +208,10 @@ nav{
  
 .container_form{
    width: 450px;
-   
-   
    position:absolute;
-   top:25%;
-   left:13.5%;
+   top: 11%;
+   left: 13%;
+   display:fixed;
 }
 
 .form_action{
@@ -226,7 +223,117 @@ nav{
 }
 
 
+/*implementazione box professionale (1 box)*/
 
+.professional{
+position:relative;
+}
+
+.single_user{
+   width: 100%;
+   
+   text-align: center;
+   padding:15px;
+   font-size: 18px;
+   line-height: 30px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   border-bottom:1px solid rgba(224, 224, 226, 1);
+}
+.mouth{
+   color:rgba(132, 144, 154, 1)
+}
+.professional_single, .mouth{
+   padding:15px;
+   font-family: 'Roboto', sans-serif;
+}
+
+.professional_user{
+   padding:29px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   font-size: 18px;
+
+}
+.pen{
+   line-height: 30px;
+   text-align: end;
+   
+}
+
+
+
+ h4 {
+   padding:15px;
+   font-weight: 300;
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+}
+.try_professional a {
+   text-decoration: none;
+   
+   padding:9px 20px;
+    background-color: rgba(0, 97, 255, 1);
+    color: white;
+    border: none;
+    font-size: 18px;
+    
+}
+
+.punti_plan{
+   font-weight: 700;
+}
+.try_professional{
+   padding:20px;
+}
+
+
+
+
+.buy_now a{
+   color: rgba(60, 134, 255, 1);
+   
+}
+
+.border{
+   width: 40px;
+   height: 3px;
+   background-color: rgba(224, 224, 226, 1);
+   margin-left:15px;
+}
+
+.punti_plan{
+   padding-top:50px;
+   margin-left:15px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   
+}
+
+.check{
+   width: 100%;
+   height: 100%;
+   
+   
+}
+
+.check ol{
+   list-style: none;
+   
+}
+.check li{
+   display:inline-block;
+   margin:12px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   font-size: 18px;
+   padding:10px;
+   
+   
+}
+.fa-check{
+   color:rgba(18, 108, 255, 1);
+}
 
 
 
