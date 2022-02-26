@@ -4,6 +4,9 @@
     box-sizing: border-box;
     
 }
+button{
+   cursor:pointer;
+}
 /*regole comuni*/
 li{
    display: inline;
@@ -166,3 +169,65 @@ nav{
 }
 
 /*hero_container****/
+
+/*container01*/
+.container_01{
+   width: 1500px;
+   margin:2rem auto;
+   
+  
+}
+/*container01*/
+.plan{
+   position:relative;
+   padding:50px;
+   
+}
+.plan > h1{
+   font-size: 50px;
+   margin-left:10.5%;
+   font-family: 'Roboto', sans-serif;
+}
+
+.box{
+   
+   width: 300px;
+   margin-left:150px;
+   margin-top:200px;
+   height: 500px;
+   border:1px solid rgba(224, 224, 226, 1);
+   
+   
+   
+   float:left;
+}
+
+.clearfix::after{
+   content:"";
+   display:table;
+   clear: both;
+}
+ 
+.container_form{
+   width: 450px;
+   
+   
+   position:absolute;
+   top:25%;
+   left:13.5%;
+}
+
+.form_action{
+   font-size: 18px;
+   line-height: 30px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   margin:10px;
+}
+
+
+
+
+
+
+
