@@ -442,8 +442,6 @@ p{
 .operazione{
    float: left;
    width: 422px;
-   height: 650px;
-   border: 1px solid rgba(224, 224, 226, 1);
    margin: 29px;
 }
 
@@ -452,4 +450,23 @@ p{
    width: 100%;
    height: 50%;
   
+}
+.operativity_text{
+   margin-top:30px;
+}
+.operativity_text > h1{
+   font-size: 35px;
+   line-height: 40px;
+   letter-spacing: 1px;
+   font-family: 'Roboto', sans-serif;
+   
+}
+
+.operativity_text > p{
+   margin-top:30px;
+   line-height: 25px;
+}
+
+#paper{
+   text-decoration:underline;
 }
