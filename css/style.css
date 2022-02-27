@@ -336,5 +336,61 @@ position:relative;
 }
 
 
+.box_office{
+   position:relative;
+   width: 1380px;
+   margin: 11.5rem;
+   border:1px solid rgba(224, 224, 226, 1);
+   box-shadow: 0 0 10px rgba(224, 224, 226, 1);
+   
+}
+
+.box_office h2{
+   text-align: center;
+   padding:15px;
+   font-weight: 300;
+   font-family: 'Roboto', sans-serif;
+   border-bottom:1px solid rgba(224, 224, 226, 1);
+}
+
+.contact{
+   padding:30px;
+   line-height: 70px;
+}
+
+.contact_office{
+   font-weight: bold;
+}
+
+p{
+   font-family: 'Roboto', sans-serif;
+}
 
 
+.botton_office{
+   color:white;
+   position:absolute;
+   right: 46px;
+   top: 97px;
+   text-decoration: none;
+   padding:0px 100px;
+   background-color: rgba(0, 97, 255, 1);
+   color: white;
+   border: none;
+   font-size: 18px;
+}
+
+.partner{
+   width: 1380px;
+   margin: 11.5rem;
+   height: 50vh;
+   background-color: blue;
+}
+
+.sezione_img{
+
+}
+
+.sezione_text{
+   
+}
