@@ -390,7 +390,7 @@ p{
 
 .sezione_img{
    float:left;
-   width: 50%;
+   width: 30%;
    height: 100%;
    background-image: url(../img/partner.png);
    background-position: center;
@@ -399,19 +399,24 @@ p{
 }
 
 .sezione_text{
+   margin-left:5%;
    position:relative;
    float:left;
-   width: 30%;
+   width: 50%;
    height: 100%;
-   
+   margin-top:20px;
    padding-top:40px;
    line-height: 35px;
+}
+.sezione_text >h1{
+   position: absolute;
+    top: 50px;
 }
 
 .sezione_text > p{
    position: absolute;
-   bottom:15%;
-   margin-bottom: 100px;
+   top:150px;
+   
 }
 
 .button_partner{
@@ -424,4 +429,27 @@ p{
    color:black;
    font-weight: 700;
    
+}
+
+.operativity{
+   margin: 9rem 2rem 0 11rem;
+   width: 90%;
+   
+   background-color: red;
+   
+}
+
+.operazione{
+   float: left;
+   width: 422px;
+   height: 568px;
+   background-color: lime;
+   margin: 29px;
+}
+
+
+.operativity_img{
+   width: 100%;
+   height: 50%;
+   background-color:blue
 }
