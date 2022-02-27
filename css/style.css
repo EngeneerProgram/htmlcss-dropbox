@@ -384,13 +384,44 @@ p{
    width: 1380px;
    margin: 11.5rem;
    height: 50vh;
-   background-color: blue;
+   
+   
 }
 
 .sezione_img{
-
+   float:left;
+   width: 50%;
+   height: 100%;
+   background-image: url(../img/partner.png);
+   background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .sezione_text{
+   position:relative;
+   float:left;
+   width: 30%;
+   height: 100%;
+   
+   padding-top:40px;
+   line-height: 35px;
+}
+
+.sezione_text > p{
+   position: absolute;
+   bottom:15%;
+   margin-bottom: 100px;
+}
+
+.button_partner{
+   position:absolute;
+   bottom:20%;
+   text-decoration: none;
+   padding:5px 20px;
+   border:1px solid black;
+   box-shadow: 0 0 10px rgba(224, 224, 226, 1);
+   color:black;
+   font-weight: 700;
    
 }
