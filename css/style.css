@@ -470,3 +470,215 @@ p{
 #paper{
    text-decoration:underline;
 }
+.team{
+   width: 600px;
+   margin-left:21rem;
+   height: 20vh;
+   
+}
+
+.team > h1{
+   font-size: 2rem;
+   font-family: 'Roboto', sans-serif;
+}
+
+
+.team a{
+   color: rgba(97, 157, 255, 1);
+   display: inline-block;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.business{
+   width: 100%;
+   height: 1900px;
+   
+  }
+
+  
+.container-partner{
+   margin-top:5rem;
+}
+.sinistro, .centro, .destro{
+   float:left;
+}
+.sinistro{
+    width: 500px;
+   }
+
+
+   /*parte sinistra container****/
+   .design{
+      background-image: url(../img/designit.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 70%;
+      background-color:rgba(162, 211, 155, 1);
+      border:10px solid rgba(207, 232, 204, 1);
+      width: 250px;
+      height: 250px;
+      
+      
+   }
+   .asu{
+      background-image: url(../img/arizona_state_university.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size:60%;
+      background-color:rgba(97, 8, 43, 1);
+      width: 250px;
+      height: 250px;
+   }
+   
+   .florida{
+      background-image: url(../img/university_of_florida.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 70%;
+      background-color:rgba(0, 147, 206, 1);
+      width: 250px;
+      height: 250px;
+   }
+   
+   .top{
+      background-image: url(../img/topps.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 70%;
+      background-color:rgba(255, 28, 28, 1);
+      width: 250px;
+      height: 250px;
+   }
+.destro{
+   width: 500px;
+   height: 500px;
+   background-color: rgb(16, 192, 183);
+}
+
+/*Parte destra****/
+.world{
+   background-image: url(../img/world_bicycle_relief.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 70%;
+      background-color:rgba(213, 0, 31, 1);
+      width: 250px;
+      height: 250px;
+}
+
+.hearst{
+   background-image: url(../img/hearst_corp.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 70%;
+      background-color:rgba(180, 208, 231, 1);
+      width: 250px;
+      height: 250px;
+}
+.lonely{
+   background-image: url(../img/lonely_planet.svg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 70%;
+   background-color:rgba(13, 36, 129, 1);
+   width: 250px;
+   height: 250px;
+   
+}
+
+.channel{
+   
+   background-image: url(../img/clear_channel.svg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 70%;
+   background-color:rgba(255, 216, 48, 1);
+   width: 250px;
+   height: 250px;
+   
+
+}
+.centro{
+   width: 870px;
+   height: 500px;
+   background-color:rgba(245, 245, 245, 1);
+}
+
+/*Parte centrale container*/
+
+.center_text{
+   margin:auto 3rem;
+   height: 100%;
+   
+}
+.center_text > img{
+   display:inline-block;
+   margin-top:2.5rem;
+}
+
+.center_text > p{
+   margin-top:4rem;
+   font-size: 20px;
+}
+
+.center_text > h5{
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   margin-top: 3rem;
+   font-size: 15px;
+}
+.margin_botton{
+      width: 60px;
+      height: 3px;
+      margin-top:2rem;
+      background-color: rgba(230, 230, 231, 1);
+}
+
+.partner1{
+   width: 250px;
+   float:left;
+   display:inline;
+   text-align: center;
+   line-height: 50px;
+   vertical-align: middle;
+
+}
+
+.container_prova{
+   width: 100%;
+   background-color: rgba(180, 208, 231, 1);
+   height: 40vh;
+}
+.sinistra{
+   float:left;
+   width: 30%;
+   height: 10vh;
+   
+}
+.sinistra > h1{
+   font-size: 3.2rem;
+   color:rgba(97, 8, 43, 1);
+   font-family: 'Roboto', sans-serif;
+}
+.sinistra{
+   margin:10rem auto 10rem 20rem;
+}
+
+.destra {
+   margin:11rem auto 10rem 20rem;
+}
+.destra {
+   float:left;
+   width: 30%;
+   height: 10vh;
+   
+}
+
+.destra > a{
+   text-decoration: none;
+   padding:5px 23px;
+   background-color: white;
+   font-family: 'Roboto', sans-serif;
+   color:black;
+   cursor:pointer;
+}
