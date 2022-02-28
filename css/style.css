@@ -35,9 +35,6 @@ li{
    font-size: 18px;
 }
 
-
-
-
 /*Barra di navigazione*/
 nav{
    position:relative;
@@ -53,8 +50,6 @@ nav{
   margin-left:-10px;
   padding-right: 20px;
 }
-
-
 
 .menu_left{
    float:left;
@@ -157,8 +152,6 @@ nav{
    position: absolute;
    bottom:80px;
    left:9%;
-   
-   
 }
 
 .ico_img{
@@ -167,15 +160,12 @@ nav{
    bottom:35px;
    left:7.5%;
 }
-
 /*hero_container****/
 
 /*container01*/
 .container_01{
    width: 1600px;
    margin:15rem auto;
-   
-  
 }
 /*container01*/
 .plan{
@@ -207,12 +197,24 @@ nav{
 }
  
 .container_form{
+   
    width: 450px;
    position:absolute;
    top: 11%;
    left: 13%;
    display:fixed;
 }
+.radio_check{
+   font-size: 18px;
+   padding:4px;
+   line-height: 5px;
+   vertical-align: revert;
+}
+
+#annuale{
+   float:left;
+}
+ 
 
 .form_action{
    font-size: 18px;
@@ -221,10 +223,7 @@ nav{
    font-weight: 400;
    margin:10px;
 }
-
-
 /*implementazione box professionale (1 box)*/
-
 .professional{
 position:relative;
 }
@@ -260,9 +259,6 @@ position:relative;
    text-align: end;
    
 }
-
-
-
  h4 {
    padding:15px;
    font-weight: 300;
@@ -271,12 +267,11 @@ position:relative;
 }
 .try_professional a {
    text-decoration: none;
-   
    padding:9px 20px;
-    background-color: rgba(0, 97, 255, 1);
-    color: white;
-    border: none;
-    font-size: 18px;
+   background-color: rgba(0, 97, 255, 1);
+   color: white;
+   border: none;
+   font-size: 18px;
     
 }
 
@@ -286,9 +281,6 @@ position:relative;
 .try_professional{
    padding:20px;
 }
-
-
-
 
 .buy_now a{
    color: rgba(60, 134, 255, 1);
@@ -314,7 +306,6 @@ position:relative;
    width: 100%;
    height: 100%;
    
-   
 }
 
 .check ol{
@@ -328,8 +319,7 @@ position:relative;
    font-weight: 300;
    font-size: 18px;
    padding:10px;
-   
-   
+    
 }
 .fa-check{
    color:rgba(18, 108, 255, 1);
@@ -384,8 +374,6 @@ p{
    width: 1380px;
    margin: 11.5rem;
    height: 50vh;
-   
-   
 }
 
 .sezione_img{
@@ -433,10 +421,7 @@ p{
 
 .operativity{
    margin: 9rem 2rem 0 11rem;
-   width: 90%;
-   
-   
-   
+   width: 90%;  
 }
 
 .operazione{
@@ -444,7 +429,6 @@ p{
    width: 422px;
    margin: 29px;
 }
-
 
 .operativity_img{
    width: 100%;
@@ -491,9 +475,7 @@ p{
 }
 .business{
    width: 100%;
-   
-   
-  }
+   }
 
   
 .container-partner{
@@ -517,8 +499,6 @@ p{
       border:10px solid rgba(207, 232, 204, 1);
       width: 250px;
       height: 250px;
-      
-      
    }
    .asu{
       background-image: url(../img/arizona_state_university.svg);
@@ -595,8 +575,6 @@ p{
    background-color:rgba(255, 216, 48, 1);
    width: 250px;
    height: 250px;
-   
-
 }
 .centro{
    width: 870px;
@@ -653,7 +631,6 @@ p{
    float:left;
    width: 30%;
    height: 10vh;
-   
 }
 .sinistra > h1{
    font-size: 3.2rem;
@@ -695,8 +672,6 @@ p{
    font-size: 30px;
    font-family: 'Roboto', sans-serif;
 }
-
-
 .answer > h3{
    padding-top:2rem;
    margin-top:4rem;
@@ -704,35 +679,28 @@ p{
    border-bottom:1px solid rgba(233, 233, 234, 1);
    padding-bottom: 2rem;
 }
-
-
-
 .freccia{
    position:absolute;
    right:0;
    cursor:pointer;
 }
-
 footer{
    margin-top:13rem;
    width: 100%;
    
    background-color: rgba(0, 0, 0, 1);
 }
-
 .container_list{
    width: 1600px;
    margin:2.5rem auto;
    height: 500px;
-   
-  
-}
+   }
 .block{
    float:left;
    margin:20px;
    width: 280px;
    height: 100%;
-  ;
+  
 }
 .text_block{
    height: 100%;
@@ -744,15 +712,12 @@ footer{
    font-family: 'Roboto', sans-serif;
 }
 
-
-
 .text_block > h2{
    margin-left: 8%;
    color:white;
    font-family: 'Roboto', sans-serif;
    font-size: 30px;
 }
-
 .margine_footer{
 width: 120px;
 height: 3px;
